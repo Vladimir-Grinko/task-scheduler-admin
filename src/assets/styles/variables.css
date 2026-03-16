@@ -1,0 +1,35 @@
+:root {
+  /* Windows 11 Colors */
+  --win-bg-primary: #f3f3f3;
+  --win-bg-secondary: #ffffff;
+  --win-bg-tertiary: #ebebeb;
+  --win-text-primary: #000000;
+  --win-text-secondary: #666666;
+  --win-accent: #0078d4;
+  --win-accent-hover: #106ebe;
+  --win-border: rgba(0, 0, 0, 0.1);
+  --win-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --win-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  /* Navigation Panel */
+  --nav-bg: #f3f3f3;
+  --nav-item-bg: #ffffff;
+  --nav-item-hover: #e9e9e9;
+  --nav-item-active: #e0e0e0;
+
+  /* Content Area */
+  --content-bg: #ffffff;
+  --card-bg: #ffffff;
+  --card-hover: #f8f8f8;
+
+  /* Typography */
+  --font-primary:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
