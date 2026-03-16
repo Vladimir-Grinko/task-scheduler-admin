@@ -32,20 +32,22 @@ npm run build
 ```
 
 ## Структура проекта
-
+```
 src/
-├── assets/ # Стили и изображения
-├── components/ # Vue компоненты
-│ ├── layout/ # Макет приложения
-│ ├── tabs/ # Табы навигации
-│ └── common/ # Общие компоненты
-├── router/ # Роутинг
-├── stores/ # Pinia store
-├── types/ # TypeScript типы
-└── App.vue # Корневой компонент
+├── assets/ - Стили и изображения
+├── components/ - Vue компоненты
+│ ├── layout/ - Макет приложения
+│ ├── tabs/ - Табы навигации
+│ └── common/ - Общие компоненты
+├── router/ - Роутинг
+├── stores/ - Pinia store
+├── types/ - TypeScript типы
+└── App.vue - Корневой компонент
+
+```
 
 ## 📸 Скриншоты
 
-![Планировка](screenshots/main.png)
-![Ручная загрузка](screenshots/manual.png)
-![Уведомления](screenshots/notifications.png)
+![Планировка](https://github.com/Vladimir-Grinko/task-scheduler-admin/blob/master/public/screenshots/main.png)
+![Ручная загрузка](https://github.com/Vladimir-Grinko/task-scheduler-admin/blob/master/public/screenshots/manual.png)
+![Уведомления](https://github.com/Vladimir-Grinko/task-scheduler-admin/blob/master/public/screenshots/notifications.png)
