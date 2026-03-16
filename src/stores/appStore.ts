@@ -236,7 +236,7 @@ export const useAppStore = defineStore("app", {
         failedFiles: summary.failed,
         duration: summary.duration,
         details: details,
-      });
+      } as AppNotification);
     },
 
     // Вспомогательные методы форматирования
